@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 module MerlinGateway
   class Client
     attr_accessor :username, :password, :access_number, :sender_number, :country, :bulk
