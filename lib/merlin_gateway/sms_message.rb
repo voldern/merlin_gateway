@@ -28,6 +28,7 @@ module MerlinGateway
         gate.country client.country
         gate.accessNumber client.access_number
         gate.senderNumber client.sender_number
+        gate.bulk client.bulk
         gate.targetNumber target_number
         gate.price price
         gate.sms do |sms|

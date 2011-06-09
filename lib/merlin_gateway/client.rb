@@ -1,6 +1,6 @@
 module MerlinGateway
   class Client
-    attr_accessor :username, :password, :access_number, :sender_number, :country
+    attr_accessor :username, :password, :access_number, :sender_number, :country, :bulk
 
     def initialize(options)
       @username = options[:username]
@@ -8,6 +8,7 @@ module MerlinGateway
       @access_number = options[:access_number] || '2210'
       @sender_number = options[:sender_number] || @access_number
       @country = options[:country] || 'NO'
+      @bulk = options[:bulk]
     end
 		
     def new_message(target_number, message, options={})
