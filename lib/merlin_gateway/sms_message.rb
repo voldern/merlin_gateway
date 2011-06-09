@@ -32,9 +32,7 @@ module MerlinGateway
         gate.targetNumber target_number
         gate.price price
         gate.sms do |sms|
-          sms.content do |content|
-            content.cdata! message
-          end
+          sms.content message
         end
       end
     end
