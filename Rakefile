@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 require 'rubygems'
 require 'rake'
 
@@ -10,7 +9,7 @@ begin
     gem.description = %Q{Client for the Aspiro Merlin SMS gateway}
     gem.email = "inge@manualdesign.no.no"
     #gem.homepage = "http://github.com/elektronaut/merlin_gateway"
-    gem.authors = ["Inge Jørgensen"]
+    gem.authors = ["Inge Joorgensen"]
 	gem.add_dependency "builder", ">= 2.1.2"
 	gem.add_dependency "typhoeus", ">= 0.2.0"
     #gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
